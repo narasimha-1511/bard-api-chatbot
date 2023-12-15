@@ -1,0 +1,21 @@
+{
+  "name": "bard-api-project",
+  "version": "1.0.0",
+  "description": "using bard and also training it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "narasimha",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.1.1",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
