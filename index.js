@@ -5,7 +5,7 @@ require("dotenv").config();
 const port = process.env.PORT; // Set a default value for port if not defined
 
 app.get("/", (req, res) => {
-  console.log("GET request received");
+  console.log("GET request received");//Loggin the get request
   res.sendFile("index.html", { root: __dirname + "/public" });
 });
 
