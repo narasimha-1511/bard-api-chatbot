@@ -9,7 +9,7 @@ const genAI = new GoogleGenerativeAI(process.env.API_KEY);
 const model = genAI.getGenerativeModel({ model: process.env.MODEL_NAME });
 
 async function TextToText(prompt) {
-  // For text-only input, use the gemini-pro model
+  // For text-only input, use the gemini-pro model ..
 
   //   const prompt = "Write a story about a magic backpack.";
 
